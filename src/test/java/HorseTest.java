@@ -29,13 +29,13 @@ public class HorseTest {
     @Test(timeout = 50)
     public void TestUpgradeSpeed() {
         h.upgradeSpeed();
-        assertEquals(2, h.getMaxSpeed());
+        assertEquals(99, h.getMaxSpeed());
     }
     
     @Test(timeout = 50)
     public void TestDowngradeSpeed() {
         h.downgradeSpeed();
-        assertEquals(0, h.getMaxSpeed());
+        assertEquals(10, h.getMaxSpeed());
     }
 
     @Test(timeout = 50)
