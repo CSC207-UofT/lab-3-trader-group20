@@ -1,12 +1,12 @@
 public class Apple implements Tradable{
-    private int PRICE;
+    private int price;
 
     public Apple(int price) {
-        this.PRICE = price;
+        this.price = price;
     }
 
     @Override
     public int getPrice() {
-        return PRICE;
+        return price;
     }
 }
