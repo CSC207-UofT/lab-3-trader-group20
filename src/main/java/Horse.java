@@ -1,5 +1,6 @@
 /* A sample class that implements the given interfaces.
  */
+/*random*/
 public class Horse implements Drivable, Domesticatable, Tradable {
     private int maxSpeed;
 
@@ -9,7 +10,7 @@ public class Horse implements Drivable, Domesticatable, Tradable {
 
     @Override
     public String sound() {
-        return "Neigh!";
+        return "Neighhh!";
     }
 
     @Override
