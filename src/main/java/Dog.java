@@ -2,7 +2,7 @@ public class Dog implements Tradable, Domesticatable{
 
     /**
      *
-     * @return a string
+     * @return the sound that the dog makes
      */
     @Override
     public String sound() {
@@ -11,7 +11,7 @@ public class Dog implements Tradable, Domesticatable{
 
     /**
      *
-     * @return an integer
+     * @return the price of the dog
      */
     @Override
     public int getPrice() {
