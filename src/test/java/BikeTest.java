@@ -1,6 +1,5 @@
 /*
- * This file contains sample JUnit test cases for Horse.java
- * You should NOT modify this file!
+ * This file contains sample JUnit test cases for Bike.java
  */
 
 import org.junit.*;

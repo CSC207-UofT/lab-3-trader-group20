@@ -1,31 +1,31 @@
 // A class that represents a drivable, tradable bike
 public class Bike implements Drivable, Tradable{
-    public int max_Speed;
+    private int maxSpeed;
     private int price;
 
-    public Bike(int max_speed, int price) {
-        this.max_Speed = max_speed;
-        this.price = price;
+    public Bike() {
+        this.maxSpeed = 10;
+        this.price = 1000;
     }
 
-    public Bike() {
-        this.max_Speed = 10;
-        this.price = 1000;
+    public Bike(int max_speed, int price) {
+        this.maxSpeed = max_speed;
+        this.price = price;
     }
 
     @Override
     public void upgradeSpeed() {
-        this.max_Speed++;
+        this.maxSpeed++;
     }
 
     @Override
     public void downgradeSpeed() {
-        this.max_Speed--;
+        this.maxSpeed--;
     }
 
     @Override
     public int getMaxSpeed() {
-        return this.max_Speed;
+        return this.maxSpeed;
     }
 
     @Override
