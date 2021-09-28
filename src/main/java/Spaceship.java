@@ -1,18 +1,21 @@
 public class Spaceship implements Tradable, Drivable{
     private int maxspeed;
 
+    private final int upperSpeedLimit = 300000000;
+    private final int lowerSpeedLimit = 100000000;
+
     public Spaceship() {
         this.maxspeed = 200000000;
     }
 
     @Override
     public void upgradeSpeed() {
-        this.maxspeed = (300000000 + this.maxspeed) / 2;
+        this.maxspeed = (upperSpeedLimit + this.maxspeed) / 2;
     }
 
     @Override
     public void downgradeSpeed() {
-        this.maxspeed = (100000000 + this.maxspeed) / 2;
+        this.maxspeed = (lowerSpeedLimit + this.maxspeed) / 2;
     }
 
     @Override

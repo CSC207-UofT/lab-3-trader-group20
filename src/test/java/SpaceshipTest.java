@@ -1,3 +1,7 @@
+/*
+This file contains sample JUnit test cases for Spaceship.java
+ */
+
 import org.junit.*;
 
 import static org.junit.Assert.*;
